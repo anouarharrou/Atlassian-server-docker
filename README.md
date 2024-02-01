@@ -17,7 +17,7 @@ This script automates the installation of Atlassian Server products (Jira, Confl
 Make sure your system meets the following requirements:
 
 - 🐧 Ubuntu Server or CentOS 7.
-- 🖥️ Windows with Docker Desktop.
+- 🖥️ Docker Desktop on windows.
 - 🐚 Bash shell.
 - 🌐 Internet connection for downloading Docker and Docker Compose.
 
