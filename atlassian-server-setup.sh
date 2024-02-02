@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ./scripts/functions.sh > /dev/null 2>&1 || source functions.sh > /dev/null 2>&1
+source ./script/functions.sh > /dev/null 2>&1 || source functions.sh > /dev/null 2>&1
 
 # Customized banner with colors and emojis
 echo -e "\e[1;34m"  # Blue color for the banner
