@@ -40,13 +40,13 @@ Ensure your system has the following resources:
 1. **Clone this repository:**
 
     ```bash
-    git clone https://github.com/yourusername/atlassian-docker-script.git
+    git clone https://github.com/anouarharrou/Atlassian-server-docker.git
     ```
 
 2. **Navigate to the script directory:**
 
     ```bash
-    cd atlassian-docker-script
+    cd Atlassian-server-docker
     ```
 
 3. **Make the script executable:**
