@@ -2,6 +2,12 @@
 
 This script automates the installation of Atlassian Server products (Jira, Confluence, and Bitbucket) using Docker Compose. The script also handles the installation of Docker and Docker Compose if not already installed on the system.
 
+
+## Architecture
+
+![Architecture](images/atlassian-server.png)
+
+
 ## Author
 
 - Author: Anouar Harrou
@@ -63,12 +69,13 @@ Ensure your system has the following resources:
     127.0.0.1 jira.internal
     127.0.0.1 confluence.internal
     127.0.0.1 bitbucket.internal
+    127.0.0.1 postgres.internal
     ```
 
     After that, go to `./docker` and run:
 
     ```bash
-    docker-compose up -d
+    docker-compose -p Atlassian_Server up -d
     ```
 
 6. **Follow the prompts to continue with the installation.**

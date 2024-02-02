@@ -54,7 +54,7 @@ function InstallOnUbuntu() {
 
     # Step 9: Execute Docker Compose
     cd ./docker
-    docker-compose up -d
+    docker-compose -p atlassian_server up -d
     sleep 10
     echo "✅ Atlassian server has been installed and is running."
     echo "🔗 Jira : http://jira.internal"
@@ -99,7 +99,7 @@ function InstallOnCentOS() {
 
     # Step 10: Execute Docker Compose
     cd ./docker
-    docker-compose up -d
+    docker-compose -p atlassian_server up -d
     sleep 10
 
     echo "✅ Atlassian server has been installed and is running."
