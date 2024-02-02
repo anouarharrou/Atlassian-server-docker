@@ -75,7 +75,7 @@ Ensure your system has the following resources:
     After that, go to `./docker` and run:
 
     ```bash
-    docker-compose -p Atlassian_Server up -d
+    docker-compose -p atlassian_cluster up -d
     ```
 
 6. **Follow the prompts to continue with the installation.**
