@@ -29,6 +29,7 @@ function InstallOnUbuntu() {
     sudo apt-get install -y docker.io
 
     # Step 3: Add your user to the docker group (optional, to run Docker without sudo)
+    sudo addgroup --system docker
     sudo usermod -aG docker $USER
 
     # Step 4: Log out and log back in to apply the group changes
