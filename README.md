@@ -10,7 +10,9 @@ This script automates the installation of Atlassian Server products (Jira, Confl
 
 ## Author
 
-- Author: Anouar Harrou
+- **Author:** Anouar Harrou
+
+    Connect with me on LinkedIn: [Anouar Harrou](https://www.linkedin.com/in/anouarharrou/)
 
 ## Features
 
